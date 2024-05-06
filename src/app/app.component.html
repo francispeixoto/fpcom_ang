@@ -1,20 +1,16 @@
-<header class="text-white bg-gray-900 body-font p-5">
-  <div class="container mx-auto flex flex-wrap flex-col items-center">
+<header class="text-white bg-gray-900 body-font p-5 sticky top-0 z-50">
+  <div class="container mx-auto flex flex-col flex-wrap sm:items-center">
     <a
       href="/"
-      class="no-underline flex title-font font-medium items-center text-white mb-2"
+      class="no-underline flex title-font font-medium text-white mb-2"
     >
-      <span class="lg:text-5xl text-3xl justify-center"
-        >Francis Peixoto</span
-      >
+      <span class="lg:text-5xl text-3xl">Francis Peixoto</span>
     </a>
   </div>
   <div class="container mx-auto flex flex-wrap flex-col items-center">
-    <span
-      class="ml-3 lg:text-lg text-md justify-center"
-    >
+    <span class="ml-3 lg:text-lg text-md justify-center">
       <div>
-        <a href="mailto:francis@francispeixoto.com" class=" text-gray-400">
+        <a href="mailto:francis@francispeixoto.com" class="text-gray-400">
           <fa-icon
             [icon]="['fas', 'envelope']"
             size="1x"
@@ -29,7 +25,7 @@
           href="https://github.com/francispeixoto"
           target="_blank"
           rel="noopener noreferrer"
-          class=" text-gray-400"
+          class="text-gray-400"
         >
           <fa-icon
             [icon]="['fab', 'github']"
@@ -45,7 +41,7 @@
           href="https://www.linkedin.com/in/fpeixoto/"
           target="_blank"
           rel="noopener noreferrer"
-          class=" text-gray-400"
+          class="text-gray-400"
         >
           <fa-icon
             [icon]="['fab', 'linkedin']"
@@ -59,126 +55,126 @@
     </span>
   </div>
 </header>
-
-<section class="text-gray-600 body-font lg:py-5 py-2 break-after-all">
-  <div
-    class="container px-5 mx-auto flex flex-col bg-gray-300 text-gray-900 rounded-md"
-  >
-    <div class="mx-auto">
-      <div class="flex flex-col sm:flex-row">
-        <div class="lg:py-8 py-3 items-center">
-          <p class="leading-normal text-center lg:text-2xl text-xl">
-            En tant que <strong>leader expérimenté</strong>, j'offre une
-            combinaison unique de
-            <strong>vision stratégique</strong>
-            et
-            <strong>expertise technologique</strong>
-            afin de favoriser le succès de vos ambitions dans des domaines en
-            constante évolution.
+<main class="relative">
+  <!-- Sommaire -->
+  <section class="text-gray-600 body-font mb-5 lg:py-5 py-2 px-5">
+    <div
+      class="container mt-3 px-5 mx-auto flex flex-col bg-gray-300 text-gray-900 rounded-md"
+    >
+      <div class="mx-auto">
+        <div class="flex flex-col sm:flex-row">
+          <div class="lg:py-8 py-3 items-center">
+            <p class="leading-normal text-center lg:text-2xl text-xl">
+              En tant que <strong>leader expérimenté</strong>, j'offre une
+              combinaison unique de
+              <strong>vision stratégique</strong>
+              et
+              <strong>expertise technologique</strong>
+              afin de favoriser le succès de vos ambitions dans des domaines en
+              constante évolution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container lg:py-5 mx-auto">
+      <div
+        class="flex items-center lg:w-3/5 mx-auto lg:py-5 py-2 border-gray-200 sm:flex-row flex-col"
+      >
+        <div
+          class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-gray-100 text-gray-500 flex-shrink-0"
+        >
+          <fa-icon
+            [icon]="['fas', 'handshake']"
+            size="3x"
+            class="text-gray-600"
+          ></fa-icon>
+        </div>
+        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <h2
+            class="text-gray-900 lg:text-2xl text-lg title-font font-medium mb-2"
+          >
+            Leadership
+          </h2>
+          <p class="leading-normal lg:text-lg text-base text-justify">
+            Mon style de gestion se concentre sur
+            l'<strong>habilitation</strong>, la <strong>collaboration</strong>,
+            la <strong>facilitation </strong>et l'<strong>alignement</strong>
+            sur des objectifs clairs, favorisant ainsi une culture mobilisante
+            d'innovation.
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex items-center lg:w-3/5 mx-auto lg:py-5 py-2 border-gray-200 sm:flex-row flex-col"
+      >
+        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <h2
+            class="text-gray-900 lg:text-2xl text-lg title-font font-medium mb-2"
+          >
+            Vision
+          </h2>
+          <p class="leading-normal lg:text-lg text-base text-justify">
+            Ma capacité à élaborer et mettre en œuvre des
+            <strong>plans stratégiques</strong> arrimés aux tendances du marché
+            et a la réalité du contexte a propulsé des
+            <strong>lancements de produits réussis</strong> et une
+            <strong>croissance continue</strong> au cours de leur cycle de vie.
+          </p>
+        </div>
+        <div
+          class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-gray-100 text-gray-500 flex-shrink-0"
+        >
+          <fa-icon
+            [icon]="['fas', 'road']"
+            size="3x"
+            class="text-gray-600"
+          ></fa-icon>
+        </div>
+      </div>
+      <div
+        class="flex items-center lg:w-3/5 mx-auto lg:py-5 py-2 border-gray-200 sm:flex-row flex-col"
+      >
+        <div
+          class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-gray-100 text-gray-500 flex-shrink-0"
+        >
+          <fa-icon
+            [icon]="['fas', 'book']"
+            size="3x"
+            class="text-gray-600"
+          ></fa-icon>
+        </div>
+        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <h2
+            class="text-gray-900 lg:text-2xl text-lg title-font font-medium mb-2"
+          >
+            Expertise
+          </h2>
+          <p class="leading-normal lg:text-lg text-base text-justify">
+            Tout au long de ma carrière, j'ai affiné mes
+            <strong>compétences</strong> pour naviguer les complexités des
+            <strong>produits technologiques</strong> afin de mieux soutenir les
+            collaborateurs que je cotoie au quotidien.
           </p>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="text-gray-600 body-font break-after-all">
-  <div class="container px-5 lg:py-5 mx-auto">
-    <div
-      class="flex items-center lg:w-3/5 mx-auto lg:py-5 py-2 border-gray-200 sm:flex-row flex-col"
-    >
-      <div
-        class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-gray-100 text-gray-500 flex-shrink-0"
-      >
-        <fa-icon
-          [icon]="['fas', 'handshake']"
-          size="3x"
-          class="text-gray-600"
-        ></fa-icon>
-      </div>
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-        <h2
-          class="text-gray-900 lg:text-2xl text-lg title-font font-medium mb-2"
-        >
-          Leadership
-        </h2>
-        <p class="leading-normal lg:text-lg text-base text-justify">
-          Mon style de gestion se concentre sur l'<strong>habilitation</strong>,
-          la <strong>collaboration</strong>, la <strong>facilitation </strong>et
-          l'<strong>alignement</strong> sur des objectifs clairs, favorisant
-          ainsi une culture mobilisante d'innovation.
-        </p>
-      </div>
-    </div>
-    <div
-      class="flex items-center lg:w-3/5 mx-auto lg:py-5 py-2 border-gray-200 sm:flex-row flex-col"
-    >
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-        <h2
-          class="text-gray-900 lg:text-2xl text-lg title-font font-medium mb-2"
-        >
-          Vision
-        </h2>
-        <p class="leading-normal lg:text-lg text-base text-justify">
-          Ma capacité à élaborer et mettre en œuvre des plans stratégiques
-          arrimés aux tendances du marché et a la réalité du contexte a propulsé
-          des lancements de produits réussis et une croissance continue au cours
-          de leur cycle de vie.
-        </p>
-      </div>
-      <div
-        class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-gray-100 text-gray-500 flex-shrink-0"
-      >
-        <fa-icon
-          [icon]="['fas', 'road']"
-          size="3x"
-          class="text-gray-600"
-        ></fa-icon>
-      </div>
-    </div>
-    <div
-      class="flex items-center lg:w-3/5 mx-auto lg:py-5 py-2 border-gray-200 sm:flex-row flex-col"
-    >
-      <div
-        class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-gray-100 text-gray-500 flex-shrink-0"
-      >
-        <fa-icon
-          [icon]="['fas', 'book']"
-          size="3x"
-          class="text-gray-600"
-        ></fa-icon>
-      </div>
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-        <h2
-          class="text-gray-900 lg:text-2xl text-lg title-font font-medium mb-2"
-        >
-          Expertise
-        </h2>
-        <p class="leading-normal lg:text-lg text-base text-justify">
-          Tout au long de ma carrière, j'ai affiné mes compétences pour naviguer
-          les complexités des produits technologiques afin de mieux soutenir les
-          collaborateurs que je cotoie au quotidien.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+  <!-- Mandat actuel -->
+  <div style="page-break-inside: avoid; page-break-after: always"></div>
 
-<div style="page-break-inside: avoid; page-break-after: always"></div>
-<section class="text-gray-600 body-font lg:py-5 py-2 break-before-all">
-  <div class="container pb-5 mx-auto flex flex-wrap px-5">
-    <div class="lg:pb-5 pb-2 lg:text-3xl text-2xl"><p>Mandat actuel</p></div>
+  <section class="text-gray-600 body-font mb-5 lg:py-5 py-2 px-5">
+    <div class="container pb-5 mx-auto flex-col">
+      <div class="lg:pb-5 pb-2 lg:text-3xl text-2xl"><p>Mandat actuel</p></div>
 
-    <div class="flex relative lg:py-5 py-2 sm:items-start mx-auto">
-      <div class="flex-grow flex sm:items-start flex-col sm:flex-row">
-        <div class="flex-grow sm:mt-0 lg:w-1/3 pb-10 mr-5">
-          <div class="mr-5">
-            <img
-              alt="exo"
-              class="lg:h-24 lg:w-24 h-12 w-12 rounded-full z-10"
-              src="assets/logo_exo.png"
-            />
-          </div>
+      <div class="flex flex-row sm:mt-0 pb-5 items-center">
+        <img
+          alt="exo"
+          class="h-24 w-24 rounded-full z-10 mr-10"
+          src="assets/logo_exo.png"
+        />
+        <div class="flex-row">
           <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
             exo
           </h2>
@@ -191,129 +187,163 @@
           </p>
           <p class="leading-normal text-md text-gray-500">2019-2023</p>
         </div>
-        <div class="md:w-2/3">
-          <p class="leading-normal text-lg lg:text-lg font-medium text-justify">
-            Responsable des processus et des ressources de stratégie, livraison
-            et opération de gestion de produits numériques dans un contexte
-            agile
-          </p>
-          <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; Cultiver le changement et s’assurer que les technologies
-            utilisées soient évolutives afin de demeurer un chef de file dans le
-            domaine, d’optimiser l’expérience client et partenaires d’affaires
-            et d’assurer la qualité des services rendus;
-          </p>
+      </div>
+      <div class="">
+        <p class="leading-normal text-lg lg:text-lg font-medium text-justify">
+          Responsable des processus et des ressources de stratégie, livraison et
+          opération de gestion de produits numériques dans un contexte agile
+        </p>
+        <p class="leading-normal text-sm lg:text-base text-justify">
+          &#10003; Cultiver le changement et s’assurer que les technologies
+          utilisées soient évolutives afin de demeurer un chef de file dans le
+          domaine, d’optimiser l’expérience client et partenaires d’affaires et
+          d’assurer la qualité des services rendus;
+        </p>
 
-          <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; Planifier, diriger et contrôler toutes les activités de la
-            direction;
-          </p>
+        <p class="leading-normal text-sm lg:text-base text-justify">
+          &#10003; Planifier, diriger et contrôler toutes les activités de la
+          direction;
+        </p>
 
-          <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003;Évaluer la performance, en assurant respect des orientations
-            stratégiques, l’atteinte des objectifs, et d’apporter les mesures
-            correctives adéquates;
-          </p>
+        <p class="leading-normal text-sm lg:text-base text-justify">
+          &#10003;Évaluer la performance, en assurant respect des orientations
+          stratégiques, l’atteinte des objectifs, et d’apporter les mesures
+          correctives adéquates;
+        </p>
 
-          <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; Établir et suivre le budget de son équipe afin de répondre
-            aux besoins de ses clients et de favoriser l’efficience de son
-            équipe;
-          </p>
+        <p class="leading-normal text-sm lg:text-base text-justify">
+          &#10003; Établir et suivre le budget de son équipe afin de répondre
+          aux besoins de ses clients et de favoriser l’efficience de son équipe;
+        </p>
 
-          <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; Assurer le développement des employés sous votre
-            responsabilité et assurer la pérennité des connaissances de sa
-            Direction.
-          </p>
+        <p class="leading-normal text-sm lg:text-base text-justify">
+          &#10003; Assurer le développement des employés sous votre
+          responsabilité et assurer la pérennité des connaissances de sa
+          Direction.
+        </p>
 
-          <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; Assurer une veille technologique et faire évoluer de façon
-            continue les pratiques de développement, outils et processus afin
-            d’accroître l’autonomie et l’efficacité des équipes;
-          </p>
+        <p class="leading-normal text-sm lg:text-base text-justify">
+          &#10003; Assurer une veille technologique et faire évoluer de façon
+          continue les pratiques de développement, outils et processus afin
+          d’accroître l’autonomie et l’efficacité des équipes;
+        </p>
 
-          <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; S'assurer que le travail de son équipe respecte les bonnes
-            pratiques et les normes d’entreprise dans le développement logiciel,
-            que ce soit au niveau projet ou support applicatif;
-          </p>
+        <p class="leading-normal text-sm lg:text-base text-justify">
+          &#10003; S'assurer que le travail de son équipe respecte les bonnes
+          pratiques et les normes d’entreprise dans le développement logiciel,
+          que ce soit au niveau projet ou support applicatif;
+        </p>
 
-          <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; Gérer les divers fournisseurs externes impliqués dans la
-            livraison des services ;
-          </p>
+        <p class="leading-normal text-sm lg:text-base text-justify">
+          &#10003; Gérer les divers fournisseurs externes impliqués dans la
+          livraison des services ;
+        </p>
 
-          <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; Représenter la Direction auprès de différents comités d’exo
-            et auprès de la communauté de transport collectif de la province;
-          </p>
+        <p class="leading-normal text-sm lg:text-base text-justify">
+          &#10003; Représenter la Direction auprès de différents comités d’exo
+          et auprès de la communauté de transport collectif de la province;
+        </p>
 
-          <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; Participe à la gestion du changement, notamment en
-            procédant aux analyses d’impacts des projets sur l’humain, la
-            capacité, la disponibilité et la continuité de l’infrastructure
-          </p>
+        <p class="leading-normal text-sm lg:text-base text-justify">
+          &#10003; Participe à la gestion du changement, notamment en procédant
+          aux analyses d’impacts des projets sur l’humain, la capacité, la
+          disponibilité et la continuité de l’infrastructure
+        </p>
 
-          <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; Assurer un travail de collaboration avec les autres équipes
-            de la direction exécutive TI et STI pour atteindre les objectifs au
-            niveau des projets ou des architectures d'entreprise.
-          </p>
+        <p class="leading-normal text-sm lg:text-base text-justify">
+          &#10003; Assurer un travail de collaboration avec les autres équipes
+          de la direction exécutive TI et STI pour atteindre les objectifs au
+          niveau des projets ou des architectures d'entreprise.
+        </p>
 
-          <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; Fournir des conseils d'expert sur l'évaluation, la
-            sélection, la mise en œuvre et la maintenance des systèmes
-            d'information, assurant un investissement approprié dans les
-            systèmes stratégiques et opérationnels.
-          </p>
+        <p class="leading-normal text-sm lg:text-base text-justify">
+          &#10003; Fournir des conseils d'expert sur l'évaluation, la sélection,
+          la mise en œuvre et la maintenance des systèmes d'information,
+          assurant un investissement approprié dans les systèmes stratégiques et
+          opérationnels.
+        </p>
+
+        <p
+          class="mt-3 leading-normal text-lg lg:text-lg font-medium text-justify mb-3"
+        >
+          Projets Notables
+        </p>
+        <div class="flex flex-wrap -m-4">
+          <div class="xl:w-1/3 md:w-1/2 sm:w-1/2 p-4">
+            <div class="border border-gray-200 p-6 rounded-lg">
+              <p class="leading-normal text-lg lg:text-lg font-medium text-justify">
+                Chrono SAEIV
+              </p>
+              <p class="leading-normal text-sm lg:text-base text-left">
+                Plateforme de soutien d'aide à l'exploitation et information
+                voyageur
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 sm:w-1/2 p-4">
+            <div class="border border-gray-200 p-6 rounded-lg">
+              <p class="leading-normal text-lg lg:text-lg font-medium text-justify">
+                Mercure/Infotitre
+              </p>
+              <p class="leading-normal text-sm lg:text-base text-left">
+                Plateforme de gestion d'abonnement aux services de transport
+                collectif
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 sm:w-1/2 p-4">
+            <div class="border border-gray-200 p-6 rounded-lg">
+              <p class="leading-normal text-lg lg:text-lg font-medium text-justify">
+                exo.quebec
+              </p>
+              <p class="leading-normal text-sm lg:text-base text-left">
+                Portail d'information des usagers du transport collectif en
+                couronne
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<div style="page-break-inside: avoid; page-break-after: always"></div>
-<section class="text-gray-600 body-font lg:py-5 py-2 break-before-all">
-  <div class="container pb-5 mx-auto flex flex-wrap px-5">
-    <div class="lg:pb-5 pb-2 lg:text-3xl text-2xl">
-      <p>Réalisations passées</p>
-    </div>
+  <!-- Réalisations passées -->
+  <div style="page-break-inside: avoid; page-break-after: always"></div>
 
-    <div class="flex relative lg:py-5 py-2 sm:items-start mx-auto">
-      <img
-        alt="cofomo"
-        class="lg:h-24 lg:w-24 h-12 w-12 rounded-full z-10"
-        src="assets/logo_cofomo.png"
-      />
+  <section class="text-gray-600 body-font mb-10 lg:py-5 py-2 px-5">
+    <div class="container pb-5 mx-auto flex-col">
+      <div class="lg:pb-5 pb-2 lg:text-3xl text-2xl">
+        <p>Réalisations passées</p>
+      </div>
 
-      <div
-        class="flex-grow md:pl-8 pl-6 flex sm:items-start flex-col sm:flex-row"
-      >
-        <div class="flex-grow sm:mt-0 md:w-1/3 pb-10">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
-            Cofomo
-          </h2>
-          <p class="leading-normal lg:text-lg text-md">
-            Responsable de Produit, Expérience Numérique
-          </p>
-          <p class="leading-normal lg:text-md text-sm text-gray-500">
-            2018-2019
-          </p>
-          <p class="leading-normal lg:text-lg text-md">Chargé de Projets</p>
-          <p class="leading-normal lg:text-md text-sm text-gray-500">
-            2015-2018
-          </p>
+      <div class="mb-5">
+        <div class="flex flex-row sm:mt-0 pb-5 items-center">
+          <img
+            alt="exo"
+            class="h-24 w-24 rounded-full z-10 mr-10"
+            src="assets/logo_cofomo.png"
+          />
+          <div class="flex-row">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
+              Cofomo
+            </h2>
+            <p class="leading-normal text-lg">
+              Videotron: Responsable de Produit, Expérience Numérique
+            </p>
+            <p class="leading-normal text-md text-gray-500">2018-2019</p>
+            <p class="leading-normal text-lg">Quebecor: Chargé de Projets</p>
+            <p class="leading-normal text-md text-gray-500">2015-2018</p>
+
+          </div>
         </div>
-        <div class="md:w-2/3">
+        <div class="">
           <p class="leading-normal text-lg lg:text-lg font-medium text-justify">
-            Gestion de produits et de projet pour les plateformes numériques
-            pour le compte du groupe Quebecor.
+            Gestion de produits pour les sites grand public et B2B de Vidéotron
           </p>
 
           <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; Partenariat stratégique avec les parties prenantes dans la
-            priorisation de la création de valeur
+            &#10003; Agir comme partenaire stratégique avec les parties
+            prenantes dans la priorisation de la création de valeur
           </p>
           <p class="leading-normal text-sm lg:text-base text-justify">
             &#10003; Soutenir les équipes de livraison dans la compréhension des
@@ -326,147 +356,122 @@
             concentrer sur les problèmes et les opportunités
           </p>
           <p class="leading-normal text-sm lg:text-base text-justify">
-            &#10003; Conseiller sur les tendances technologiques de l'industrie
-            qui lui permettraient de capter et de conserver de nouvelles sources
-            de revenus
+            &#10003; Conseiller l'entreprise sur les tendances technologiques de
+            l'industrie qui lui permettraient de capter et de conserver de
+            nouvelles sources de revenus
+          </p>
+        </div>
+        <p
+          class="mt-3 leading-normal text-lg lg:text-lg font-medium text-justify mb-3"
+        >
+          Projets Notables
+        </p>
+
+        <div class="flex flex-wrap -m-4">
+          <div class="xl:w-1/3 md:w-1/2 sm:w-1/2 p-4">
+            <div class="border border-gray-200 p-6 rounded-lg">
+              <p class="leading-normal text-lg lg:text-lg font-medium text-justify">
+                Vidéotron Plus
+              </p>
+              <p class="leading-normal text-sm lg:text-base text-left">
+                Développement du portail de récompenses clients
+              </p>
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 sm:w-1/2 p-4">
+            <div class="border border-gray-200 p-6 rounded-lg">
+              <p class="leading-normal text-lg lg:text-lg font-medium text-justify">
+                Videotron.com
+              </p>
+              <p class="leading-normal text-sm lg:text-base text-left">
+                Refonte complète du site web transactionnel de l'entreprise
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/3 md:w-1/2 sm:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <p class="leading-normal text-lg lg:text-lg font-medium text-justify">
+                    TVA Sports - Statistiques
+                </p>
+                <p class="lleading-normal text-sm lg:text-base text-left">
+                  Portail de données de résultats et de classements sportifs
+                </p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 sm:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <p class="leading-normal text-lg lg:text-lg font-medium text-justify">
+                  TVA - Élections
+                </p>
+                <p class="leading-normal text-sm lg:text-base text-left">
+                  Plateforme d'analytique et publication de données électorales
+                </p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 sm:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <p class="leading-normal text-lg lg:text-lg font-medium text-justify">
+                  QMI - Gestion de contenu
+                </p>
+                <p class="leading-normal text-sm lg:text-base text-left">
+                  Plateforme omnicanal de gestion et publication de contenu journalistique
+                </p>
+              </div>
+            </div>
+  
+        </div>
+      </div>
+      </div>
+
+      <div class="mb-5">
+        <div class="flex flex-row sm:mt-0 pb-5 items-center">
+          <img
+            alt="iGotcha"
+            class="h-24 w-24 rounded-full z-10 mr-10"
+            src="assets/logo_igotcha.jpg"
+          />
+          <div class="flex-row">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
+              iGotcha Media
+            </h2>
+            <p class="leading-normal text-lg">Analyste d'Affaire</p>
+            <p class="leading-normal text-md text-gray-500">2015</p>
+          </div>
+        </div>
+        <div class="">
+          <p class="leading-normal text-lg lg:text-lg font-medium text-justify">
+            Analyse de processus d'affaires et recommandations d'optimisations
+          </p>
+
+          <p class="leading-normal text-sm lg:text-base text-justify">
+            &#10003; Développement des affaires
+          </p>
+          <p class="leading-normal text-sm lg:text-base text-justify">
+            &#10003; Gestion de projet
+          </p>
+          <p class="leading-normal text-sm lg:text-base text-justify">
+            &#10003; Développement logiciel
           </p>
         </div>
       </div>
-    </div>
 
-    <div class="flex relative lg:py-5 py-2 sm:items-start mx-auto">
-      <img
-        alt="iGotcha"
-        class="lg:h-24 lg:w-24 h-12 w-12 rounded-full z-10"
-        src="assets/logo_igotcha.jpg"
-      />
-
-      <div
-        class="flex-grow md:pl-8 pl-6 flex sm:items-start flex-col sm:flex-row"
-      >
-        <div class="flex-grow mt-6 sm:mt-0 md:w-1/3 pb-10">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
-            iGotcha Media
-          </h2>
-          <p class="leading-normal text-lg">Analyste d'Affaire</p>
-          <p class="leading-normal text-md text-gray-500">2015</p>
+      <div class="mb-5">
+        <div class="flex flex-row sm:mt-0 pb-5 items-center">
+          <img
+            alt="Ivanhoé Cambridge"
+            class="h-24 w-24 rounded-full z-10 mr-10"
+            src="assets/logo_ivanhoecambridge.png"
+          />
+          <div class="flex-row">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
+              Ivanhoé Cambridge
+            </h2>
+            <p class="leading-normal text-lg">Coordonnateur de Projets</p>
+            <p class="leading-normal text-md text-gray-500">2012-2015</p>
+          </div>
         </div>
-        <div class="md:w-2/3">
-          <p class="leading-normal text-base text-justify">
-            Analyse des processus d'affaires de vente, gestion de projet,
-            planification et développement logiciel et émission de
-            recommandations d'optimisations.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="flex relative py-5 sm:items-start mx-auto">
-      <img
-        alt="Ivanhoé Cambridge"
-        class="lg:h-24 lg:w-24 h-12 w-12 rounded-full z-10"
-        src="assets/logo_ivanhoecambridge.png"
-      />
-
-      <div
-        class="flex-grow md:pl-8 pl-6 flex sm:items-start flex-col sm:flex-row"
-      >
-        <div class="flex-grow mt-6 sm:mt-0 md:w-1/3 pb-10">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
-            Ivanhoé Cambridge
-          </h2>
-          <p class="leading-normal text-lg">Coordonnateur de Projets</p>
-          <p class="leading-normal text-md text-gray-500">2012-2015</p>
-        </div>
-        <div class="md:w-2/3">
-          <p class="leading-normal text-base text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-            fugit nesciunt reprehenderit consequatur, unde ipsum ad tempora,
-            laboriosam molestiae magnam recusandae dolor quae, inventore at
-            fugiat culpa consequuntur quas accusantium.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="flex relative py-5 sm:items-start mx-auto">
-      <img
-        alt="Beanfield"
-        class="lg:h-24 lg:w-24 h-12 w-12 rounded-full z-10"
-        src="assets/logo_beanfield.jpg"
-      />
-
-      <div
-        class="flex-grow md:pl-8 pl-6 flex sm:items-start flex-col sm:flex-row"
-      >
-        <div class="flex-grow mt-6 sm:mt-0 md:w-1/3 pb-10">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
-            Openface Internet (Beanfield)
-          </h2>
-          <p class="leading-normal text-lg">Gestionnaire d'implémentation</p>
-          <p class="leading-normal text-md text-gray-500">2009-2012</p>
-        </div>
-        <div class="md:w-2/3">
-          <p class="leading-normal text-base text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-            fugit nesciunt reprehenderit consequatur, unde ipsum ad tempora,
-            laboriosam molestiae magnam recusandae dolor quae, inventore at
-            fugiat culpa consequuntur quas accusantium.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="flex relative py-5 sm:items-start mx-auto">
-      <img
-        alt="CGI"
-        class="lg:h-24 lg:w-24 h-12 w-12 rounded-full z-10"
-        src="assets/logo_cgi.png"
-      />
-
-      <div
-        class="flex-grow md:pl-8 pl-6 flex sm:items-start flex-col sm:flex-row"
-      >
-        <div class="flex-grow mt-6 sm:mt-0 md:w-1/3 pb-10">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
-            CGI
-          </h2>
-          <p class="leading-normal text-lg">Coordonnateur de Projets</p>
-          <p class="leading-normal text-md text-gray-500">2008</p>
-          <p class="leading-normal text-lg">Administrateur de Systèmes</p>
-          <p class="leading-normal text-md text-gray-500">2006-2008</p>
-        </div>
-        <div class="md:w-2/3">
-          <p class="leading-normal text-base text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-            fugit nesciunt reprehenderit consequatur, unde ipsum ad tempora,
-            laboriosam molestiae magnam recusandae dolor quae, inventore at
-            fugiat culpa consequuntur quas accusantium.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="flex relative py-5 sm:items-start mx-auto">
-      <div
-        class="lg:h-24 lg:w-24 h-12 w-12 inline-flex items-center justify-center rounded-full bg-gray-100 text-gray-900 mb-4 flex-shrink-0"
-      >
-        <p class="text-3xl">ASI</p>
-      </div>
-
-      <div
-        class="flex-grow md:pl-8 pl-6 flex sm:items-start flex-col sm:flex-row"
-      >
-        <div class="flex-grow mt-6 sm:mt-0 md:w-1/3 pb-10">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
-            Adéquat Service Informatique
-          </h2>
-          <p class="leading-normal text-lg">Administrateur Système</p>
-          <p class="leading-normal text-md text-gray-500">2006</p>
-          <p class="leading-normal text-lg">Chargé de Programme</p>
-          <p class="leading-normal text-md text-gray-500">2006</p>
-          <p class="leading-normal text-lg">Architecte Logiciel</p>
-          <p class="leading-normal text-md text-gray-500">2005-2006</p>
-        </div>
-        <div class="md:w-2/3">
+        <div class="">
           <p class="leading-normal text-base text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
             fugit nesciunt reprehenderit consequatur, unde ipsum ad tempora,
@@ -475,89 +480,172 @@
           </p>
         </div>
       </div>
-    </div>
 
-    <div class="flex relative py-5 sm:items-start md:w-1/3">
-      <img
-        alt="Beanfield"
-        class="lg:h-24 lg:w-24 h-12 w-12 rounded-full z-10"
-        src="assets/logo_beanfield.jpg"
-      />
-
-      <div
-        class="flex-grow md:pl-8 pl-6 flex sm:items-start flex-col sm:flex-row"
-      >
-        <div class="flex-grow mt-6 sm:mt-0 md:w-1/3 pb-10">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
-            Openface Internet (Beanfield)
-          </h2>
-          <p class="leading-normal text-lg">Administrateur Système</p>
-          <p class="leading-normal text-md text-gray-500">2005</p>
+      <div class="mb-5">
+        <div class="flex flex-row sm:mt-0 pb-5 items-center">
+          <img
+            alt="Beanfield"
+            class="h-24 w-24 rounded-full z-10 mr-10"
+            src="assets/logo_beanfield.jpg"
+          />
+          <div class="flex-row">
+            <div class="flex-row">
+              <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
+                Openface Internet (Beanfield)
+              </h2>
+              <p class="leading-normal text-lg">
+                Gestionnaire d'implémentation
+              </p>
+              <p class="leading-normal text-md text-gray-500">2009-2012</p>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <p class="leading-normal text-base text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            fugit nesciunt reprehenderit consequatur, unde ipsum ad tempora,
+            laboriosam molestiae magnam recusandae dolor quae, inventore at
+            fugiat culpa consequuntur quas accusantium.
+          </p>
         </div>
       </div>
-    </div>
-    <div class="flex relative py-5 sm:items-start md:w-1/3">
-      <img
-        alt="CGI"
-        class="lg:h-24 lg:w-24 h-12 w-12 rounded-full z-10"
-        src="assets/logo_cgi.png"
-      />
 
-      <div
-        class="flex-grow md:pl-8 pl-6 flex sm:items-start flex-col sm:flex-row"
-      >
-        <div class="flex-grow mt-6 sm:mt-0 md:w-1/3 pb-10">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
-            CGI
-          </h2>
-          <p class="leading-normal text-lg">Spécialiste Soutien</p>
-          <p class="leading-normal text-md text-gray-500">2003-2005</p>
+      <div class="mb-5">
+        <div class="flex flex-row sm:mt-0 pb-5 items-center">
+          <img
+            alt="CGI"
+            class="h-24 w-24 rounded-full z-10 mr-10"
+            src="assets/logo_cgi.png"
+          />
+
+          <div class="flex-row">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
+              CGI
+            </h2>
+            <p class="leading-normal text-lg">Coordonnateur de Projets</p>
+            <p class="leading-normal text-md text-gray-500">2008</p>
+            <p class="leading-normal text-lg">Administrateur de Systèmes</p>
+            <p class="leading-normal text-md text-gray-500">2006-2008</p>
+          </div>
+        </div>
+        <div class="">
+          <p class="leading-normal text-base text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            fugit nesciunt reprehenderit consequatur, unde ipsum ad tempora,
+            laboriosam molestiae magnam recusandae dolor quae, inventore at
+            fugiat culpa consequuntur quas accusantium.
+          </p>
         </div>
       </div>
-    </div>
-    <div class="flex relative py-5 sm:items-start md:w-1/3">
-      <img
-        alt="Inter.Net"
-        class="lg:h-24 lg:w-24 h-12 w-12 rounded-full z-10"
-        src="assets/logo_internet.png"
-      />
 
-      <div
-        class="flex-grow md:pl-8 pl-6 flex sm:items-start flex-col sm:flex-row"
-      >
-        <div class="flex-grow mt-6 sm:mt-0 md:w-1/3 pb-10">
-          <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
-            Inter.Net
-          </h2>
-          <p class="leading-normal text-lg">Spécialiste Soutien</p>
-          <p class="leading-normal text-md text-gray-500">2001-2002</p>
+      <div class="mb-5">
+        <div class="flex flex-row sm:mt-0 pb-5 items-center">
+          <div
+            class="h-24 w-24 inline-flex items-center justify-center rounded-full bg-gray-100 text-gray-900 mr-10 flex-shrink-0"
+          >
+            <p class="text-3xl">ASI</p>
+          </div>
+
+          <div class="flex-row">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
+              Adéquat Service Informatique
+            </h2>
+            <p class="leading-normal text-lg">Administrateur Système</p>
+            <p class="leading-normal text-md text-gray-500">2006</p>
+            <p class="leading-normal text-lg">Chargé de Programme</p>
+            <p class="leading-normal text-md text-gray-500">2006</p>
+            <p class="leading-normal text-lg">Architecte Logiciel</p>
+            <p class="leading-normal text-md text-gray-500">2005-2006</p>
+          </div>
+        </div>
+        <div class="">
+          <p class="leading-normal text-base text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            fugit nesciunt reprehenderit consequatur, unde ipsum ad tempora,
+            laboriosam molestiae magnam recusandae dolor quae, inventore at
+            fugiat culpa consequuntur quas accusantium.
+          </p>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+      <div style="page-break-inside: avoid; page-break-after: always"></div>
 
-<div style="page-break-inside: avoid; page-break-after: always"></div>
-<section class="text-gray-600 body-font py-5 break-before-auto">
-  <div class="container pb-5 mx-auto flex flex-wrap px-5">
-    <div class="pb-5 lg:text-3xl text-xl">
-      <p>Volontariat et Contributions</p>
-    </div>
-  </div>
-</section>
-<section class="text-gray-600 body-font py-5 break-before-auto">
-  <div class="container pb-5 mx-auto flex flex-wrap px-5">
-    <div class="pb-5 lg:text-3xl text-xl"><p>Formations</p></div>
-  </div>
-</section>
-<section class="text-gray-600 body-font py-5 break-before-auto">
-  <div class="container pb-5 mx-auto flex flex-wrap px-5">
-    <div class="pb-5 lg:text-3xl text-xl"><p>Langues</p></div>
-  </div>
-</section>
+      <div class="mb-5">
+        <div class="flex flex-row sm:mt-0 pb-5 items-center">
+          <img
+            alt="Beanfield"
+            class="h-24 w-24 rounded-full z-10 mr-10"
+            src="assets/logo_beanfield.jpg"
+          />
+          <div class="flex-row">
+            <div class="flex-row">
+              <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
+                Openface Internet (Beanfield)
+              </h2>
+              <p class="leading-normal text-lg">Administrateur Systèmes</p>
+              <p class="leading-normal text-md text-gray-500">2005</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<section class="text-gray-600 body-font py-5 break-before-auto">
-  <div class="container pb-5 mx-auto flex flex-wrap px-5">
-    <div class="pb-5 lg:text-3xl text-xl"><p>Organisations</p></div>
-  </div>
-</section>
+      <div class="mb-5">
+        <div class="flex flex-row sm:mt-0 pb-5 items-center">
+          <img
+            alt="CGI"
+            class="h-24 w-24 rounded-full z-10 mr-10"
+            src="assets/logo_cgi.png"
+          />
+
+          <div class="flex-row">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
+              CGI
+            </h2>
+            <p class="leading-normal text-lg">Spécialiste Soutien</p>
+            <p class="leading-normal text-md text-gray-500">2003-2005</p>
+          </div>
+        </div>
+        <div class=""></div>
+      </div>
+
+      <div class="mb-5">
+        <div class="flex flex-row sm:mt-0 pb-5 items-center">
+          <div
+            class="h-24 w-24 inline-flex items-center justify-center rounded-full bg-gray-100 text-gray-900 mr-10 flex-shrink-0"
+          >
+            <p class="text-3xl">I.Net</p>
+          </div>
+
+          <div class="flex-row">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-2xl">
+              Inter.Net
+            </h2>
+            <p class="leading-normal text-lg">Spécialiste Soutien</p>
+            <p class="leading-normal text-md text-gray-500">2001-2003</p>
+          </div>
+        </div>
+        <div class=""></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Autres informations -->
+  <div style="page-break-inside: avoid; page-break-after: always"></div>
+
+  <section class="text-gray-600 body-font mb-10 lg:py-5 py-2 px-5">
+    <div class="container pb-5 mx-auto flex flex-wrap px-5">
+      <div class="pb-5 lg:text-3xl text-xl">
+        <p>Volontariat et Contributions</p>
+      </div>
+    </div>
+    <div class="container pb-5 mx-auto flex flex-wrap px-5">
+      <div class="pb-5 lg:text-3xl text-xl"><p>Formations</p></div>
+    </div>
+    <div class="container pb-5 mx-auto flex flex-wrap px-5">
+      <div class="pb-5 lg:text-3xl text-xl"><p>Langues</p></div>
+    </div>
+    <div class="container pb-5 mx-auto flex flex-wrap px-5">
+      <div class="pb-5 lg:text-3xl text-xl"><p>Organisations</p></div>
+    </div>
+  </section>
+</main>
+<footer></footer>
