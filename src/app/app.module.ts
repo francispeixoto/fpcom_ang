@@ -11,6 +11,7 @@ import { faRoad as fasRoad } from '@fortawesome/free-solid-svg-icons';
 import { faBook as fasBook } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope as fasEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub as fasGithub } from '@fortawesome/free-brands-svg-icons';
+import { faPhone as fasPhone } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin as fasLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -27,5 +28,5 @@ import { faLinkedin as fasLinkedin } from '@fortawesome/free-brands-svg-icons';
 })
 export class AppModule {
   constructor(library: FaIconLibrary) {
-    library.addIcons(fasStar, fasHandshake, fasBook, fasRoad, fasEnvelope, fasGithub, fasLinkedin);}
+    library.addIcons(fasStar, fasHandshake, fasBook, fasRoad, fasEnvelope, fasGithub, fasLinkedin, fasPhone);}
  }
