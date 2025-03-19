@@ -22,10 +22,6 @@
     "@fortawesome/fontawesome-common-types": "^6.7.1",
     "@fortawesome/fontawesome-svg-core": "^6.7.1",
     "@fortawesome/free-brands-svg-icons": "^6.7.1",
-    "@fortawesome/pro-duotone-svg-icons": "^6.7.1",
-    "@fortawesome/pro-light-svg-icons": "^6.7.1",
-    "@fortawesome/pro-regular-svg-icons": "^6.7.1",
-    "@fortawesome/pro-solid-svg-icons": "^6.7.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.8.1",
     "zone.js": "~0.13.0"
