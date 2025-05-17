@@ -16,10 +16,8 @@ import { faLinkedin as fasLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
+    AppComponent,
     BrowserModule,
     FontAwesomeModule
   ],
