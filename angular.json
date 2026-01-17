@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fpcom_ang:build:production"
+              "buildTarget": "fpcom_ang:build:production"
             },
             "development": {
-              "browserTarget": "fpcom_ang:build:development"
+              "buildTarget": "fpcom_ang:build:development"
             }
           },
           "defaultConfiguration": "development"
