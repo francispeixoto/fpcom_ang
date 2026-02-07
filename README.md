@@ -1,27 +1,83 @@
-# FpcomAng
+# fpcom-ang
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+A front-end Angular application scaffolded with the Angular CLI.
 
-## Development server
+## Status
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Private repository — active Angular project.
 
-## Code scaffolding
+## Tech stack (inferred from package.json)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Framework: Angular 21.1.x
+- Language: TypeScript ^5.9.0
+- Reactive library: RxJS ~7.8.0
+- Build / CLI: @angular/cli ^21.1.0, @angular-devkit/build-angular ^21.1.0
+- Styling: Tailwind CSS ^3.4.1, PostCSS, Autoprefixer
+- Icons: Font Awesome 7.x via @fortawesome/angular-fontawesome
+- Testing: Karma + Jasmine
+- Runtime helpers: zone.js ~0.15.0, tslib ^2.8.1
 
-## Build
+> Note: Versions were taken from package.json. For exact locked versions check package-lock.json or pnpm-lock.yaml if present.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Prerequisites
 
-## Running unit tests
+- Node.js (recommend LTS, e.g., Node 18 or 20)
+- npm (or yarn/pnpm)
+- (Optional) Angular CLI installed globally: npm install -g @angular/cli@^21
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Getting started (development)
 
-## Running end-to-end tests
+1. Clone the repository:
+   git clone https://github.com/francispeixoto/fpcom_ang.git
+2. Install dependencies:
+   npm install
+3. Run the dev server:
+   npm start
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+The app runs on http://localhost:4200 by default (ng serve).
 
-## Further help
+## NPM scripts (from package.json)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- npm start — ng serve
+- npm run build — ng build
+- npm run watch — ng build --watch --configuration development
+- npm test — ng test
+
+## Build & Production
+
+- Create a production build:
+  npm run build
+- The compiled files will be under dist/ by default (standard Angular CLI behavior).
+
+## Testing
+
+- Unit tests are configured with Karma and Jasmine:
+  npm test
+
+## Styling & Icons
+
+- Tailwind CSS + PostCSS and Autoprefixer are used for styling.
+- Font Awesome (v7) is used via the @fortawesome/angular-fontawesome package.
+
+## Notes & recommendations
+
+- This README was generated from package.json and may not include repository-specific infrastructure (Docker, CI, environment variables, backend API documentation, etc.).
+- Consider adding:
+  - A LICENSE file or a license section
+  - CONTRIBUTING.md with branching and PR guidelines
+  - CI badges (GitHub Actions) and code coverage badge
+  - Node.js engine field in package.json (engines)
+
+## Contributing
+
+1. Fork the repository.
+2. Create a feature branch from main.
+3. Open a pull request targeting main with a clear description of changes.
+
+## License
+
+Add a LICENSE file to specify the project license.
+
+---
+
+(README updated by GitHub Copilot Chat Assistant based on package.json scan.)
