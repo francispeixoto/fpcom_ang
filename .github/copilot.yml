@@ -1,0 +1,4 @@
+- name: Run Claude
+  uses: some-action/claude@v1
+  with:
+    model: "claude-2"
