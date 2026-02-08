@@ -10,9 +10,8 @@ import { faHandshake as fasHandshake } from '@fortawesome/free-solid-svg-icons';
 import { faRoad as fasRoad } from '@fortawesome/free-solid-svg-icons';
 import { faBook as fasBook } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope as fasEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faGithub as fasGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub as fasGithub, faLinkedin as fasLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faPhone as fasPhone } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin as fasLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 @NgModule({
