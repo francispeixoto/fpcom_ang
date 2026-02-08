@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { provideHttpClient, withFetch } from '@angular/common/http';
+import { provideRouter } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { routes } from './app.routes';
 
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faStar as fasStar, faHandshake as fasHandshake, faRoad as fasRoad, faBook as fasBook, faEnvelope as fasEnvelope, faPhone as fasPhone } from '@fortawesome/free-solid-svg-icons';
@@ -14,7 +17,10 @@ import { faGithub as fasGithub, faLinkedin as fasLinkedin } from '@fortawesome/f
     BrowserModule,
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [
+    provideHttpClient(withFetch()),
+    provideRouter(routes)
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {

@@ -1,0 +1,24 @@
+{
+  "title": "Francis Peixoto",
+  "contacts": [
+    {
+      "type": "email",
+      "icon": ["fas", "envelope"],
+      "label": "francis@francispeixoto.com",
+      "url": "mailto:francis@francispeixoto.com"
+    },
+    {
+      "type": "linkedin",
+      "icon": ["fab", "linkedin"],
+      "label": "linkedin.com/in/fpeixoto/",
+      "url": "https://www.linkedin.com/in/fpeixoto/",
+      "target": "_blank"
+    },
+    {
+      "type": "phone",
+      "icon": ["fas", "phone"],
+      "label": "514-525-4298",
+      "url": "tel:+15145254298"
+    }
+  ]
+}
