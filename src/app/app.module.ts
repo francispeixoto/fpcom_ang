@@ -3,15 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome'
-// import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
-import { faHandshake as fasHandshake } from '@fortawesome/free-solid-svg-icons';
-import { faRoad as fasRoad } from '@fortawesome/free-solid-svg-icons';
-import { faBook as fasBook } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelope as fasEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { faStar as fasStar, faHandshake as fasHandshake, faRoad as fasRoad, faBook as fasBook, faEnvelope as fasEnvelope, faPhone as fasPhone } from '@fortawesome/free-solid-svg-icons';
 import { faGithub as fasGithub, faLinkedin as fasLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faPhone as fasPhone } from '@fortawesome/free-solid-svg-icons';
 
 
 @NgModule({
