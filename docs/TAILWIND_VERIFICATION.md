@@ -91,6 +91,8 @@ The verification script will cause the build process to exit with code 1 if Tail
 
 Ensure your Cloudflare Pages build settings use:
 - **Build command**: `npm run build`
-- **Build output directory**: `dist/fpcom_ang`
+- **Build output directory**: `/dist/fpcom_ang` (Cloudflare adds the leading slash automatically in their UI - this is normal and correct)
+
+**Note**: Cloudflare Pages UI always displays paths with a leading slash (e.g., `/dist/fpcom_ang`). This is just their UI convention and the path is still interpreted relative to your project root. The leading slash cannot be removed in Cloudflare's interface, and this is expected behavior.
 
 The build will automatically install all `dependencies` (including Tailwind) and verify the output.
