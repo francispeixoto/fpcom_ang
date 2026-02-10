@@ -1,0 +1,22 @@
+{
+  "features": [
+    {
+      "icon": ["fas", "handshake"],
+      "title": "Leadership",
+      "description": "Mon style de gestion se concentre sur l'<strong>habilitation</strong>, la <strong>collaboration</strong>, la <strong>facilitation </strong>et l'<strong>alignement</strong> sur des objectifs clairs, favorisant ainsi une culture mobilisante d'innovation.",
+      "alignment": "left"
+    },
+    {
+      "icon": ["fas", "road"],
+      "title": "Vision",
+      "description": "Ma capacité à élaborer et mettre en œuvre des <strong>plans stratégiques</strong> arrimés aux tendances du marché et a la réalité du contexte a propulsé des <strong>lancements de produits réussis</strong> et une <strong>croissance continue</strong> au cours de leur cycle de vie.",
+      "alignment": "right"
+    },
+    {
+      "icon": ["fas", "book"],
+      "title": "Expertise",
+      "description": "Tout au long de ma carrière, j'ai affiné mes <strong>compétences</strong> pour naviguer les complexités des <strong>produits technologiques</strong> afin de mieux soutenir les collaborateurs que je cotoie au quotidien.",
+      "alignment": "left"
+    }
+  ]
+}
