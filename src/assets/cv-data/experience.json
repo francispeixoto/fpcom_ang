@@ -1,0 +1,258 @@
+[
+  {
+    "id": "exo-current",
+    "company": "exo",
+    "logo": "assets/logo_exo.png",
+    "positions": [
+      {
+        "title": "Directeur, Développement des Logiciels",
+        "period": "2023-Présent"
+      },
+      {
+        "title": "Chef, Développement des Solutions Transport",
+        "period": "2019-2023"
+      }
+    ],
+    "description": "Responsable des processus et des ressources de stratégie, livraison et opération de gestion de produits numériques dans un contexte agile",
+    "responsibilities": [
+      "Planifier, diriger et contrôler toutes les activités de la direction;",
+      "Cultiver le changement et alimenter l'innovation technologique au sein de l'entreprise;",
+      "Évaluer la performance et appliquer les mesures correctives afin de maintenir l'alignement avec les objectifs statégiques;",
+      "Établir et suivre le budget de son équipe afin de répondre aux besoins de ses clients et de favoriser l'efficience de son équipe;",
+      "Assurer une veille technologique et faire évoluer de façon continue les pratiques de développement, outils et processus afin d'accroître l'autonomie et l'efficacité des équipes;",
+      "Gérer les divers fournisseurs externes impliqués dans la livraison des services;",
+      "Représenter la Direction auprès de différents comités d'exo et auprès de la communauté de transport collectif de la province;"
+    ],
+    "projects": [
+      {
+        "name": "Chrono SAEIV",
+        "description": "Plateforme de soutien d'aide à l'exploitation et information voyageur"
+      },
+      {
+        "name": "Mercure/Infotitre",
+        "description": "Plateforme transactionelle de gestion d'abonnement aux services de transport collectif"
+      },
+      {
+        "name": "exo.quebec",
+        "description": "Site web transactionnel, informationnel et corporatif de l'entreprise"
+      }
+    ]
+  },
+  {
+    "id": "cofomo",
+    "company": "Cofomo",
+    "logo": "assets/logo_cofomo.png",
+    "positions": [
+      {
+        "title": "Videotron: Responsable de Produit, Expérience Numérique",
+        "period": "2018-2019"
+      },
+      {
+        "title": "Quebecor: Chargé de Projets",
+        "period": "2015-2018"
+      }
+    ],
+    "description": "Gestion de produits pour les sites grand public et B2B du groupe Quebecor",
+    "responsibilities": [
+      "Agir comme partenaire stratégique avec les parties prenantes dans la priorisation de la création de valeur",
+      "Soutenir les équipes de livraison dans la compréhension des besoins d'affaires et capturer les requis non fonctionnels à prendre en compte",
+      "Mettre en place et soutenir une gestion de produits et des processus opérationnels agiles qui permettent à l'entreprise de se concentrer sur les problèmes et les opportunités",
+      "Conseiller l'entreprise sur les tendances technologiques de l'industrie qui lui permettraient de capter et de conserver de nouvelles sources de revenus"
+    ],
+    "projects": [
+      {
+        "name": "Vidéotron Plus",
+        "description": "Portail de fidélisation et récompense clients"
+      },
+      {
+        "name": "videotron.com",
+        "description": "Site web transactionnel, corporatif et affaire de l'entreprise"
+      },
+      {
+        "name": "TVA Sports: Résultats",
+        "description": "Plateforme d'analyse et diffusion de données sportives"
+      },
+      {
+        "name": "TVA: Élections",
+        "description": "Plateforme d'analyse et diffusion de données électorales"
+      },
+      {
+        "name": "Quebecor Media",
+        "description": "Plateforme de gestion et publication de contenu journalistique"
+      }
+    ]
+  },
+  {
+    "id": "igotcha",
+    "company": "iGotcha Media",
+    "logo": "assets/logo_igotcha.jpg",
+    "positions": [
+      {
+        "title": "Analyste d'Affaire",
+        "period": "2015"
+      }
+    ],
+    "description": "Analyse de processus d'affaires et recommandations d'optimisations",
+    "responsibilities": [
+      "Développement des affaires",
+      "Gestion de projet",
+      "Développement logiciel"
+    ],
+    "projects": []
+  },
+  {
+    "id": "ivanhoecambridge",
+    "company": "CDPQ/Ivanhoé Cambridge",
+    "logo": "assets/logo_ivanhoecambridge.png",
+    "positions": [
+      {
+        "title": "Coordonnateur de Projets",
+        "period": "2012-2015"
+      }
+    ],
+    "description": "Coordination de projets technologiques",
+    "responsibilities": [
+      "Mettre en place le processus ITIL de gestion des événements et les outils en soutien au processus",
+      "Consolider les infrastructures informatiques suite à la fusion d'Ivanhoé Cambridge avec SITQ.",
+      "Mettre en place et exécuter un programme d'amélioration des infrastructures de cybersécurité",
+      "Établir les processus et outils nécessaires à la gestion des projets liés aux activités de M&A de l'entreprise",
+      "Migrer les infrastructures vers Windows Server 2012",
+      "Planifier l'évolution continue des outils BI pour la gestion des flux de trésorerie",
+      "Développer une plateforme de gestion de risque d'entreprise"
+    ],
+    "projects": []
+  },
+  {
+    "id": "beanfield-1",
+    "company": "Openface Internet (Beanfield)",
+    "logo": "assets/logo_beanfield.jpg",
+    "positions": [
+      {
+        "title": "Gestionnaire d'implémentation",
+        "period": "2009-2012"
+      }
+    ],
+    "description": "Gestion de portefeuille de projets technologiques",
+    "responsibilities": [
+      "Gérer un portefeuille de plusieurs projets actifs simultanés avec une équipe répartie d'intervenants internes à Montréal et en Thaïlande, ainsi que de multiples partenaires externes à travers le Canada.",
+      "Gérer la relation d'affaires avec les prestataires d'équipements et de services impliqués dans la livraison des projets de l'entreprise.",
+      "Développer et mettre en œuvre des normes de gestion de projet pour harmoniser les processus des équipes de livraison et les relations avec les clients."
+    ],
+    "projects": [
+      {
+        "name": "Burger King",
+        "description": "Infrastructure infonuagique pour la gestion de contenu numérique"
+      },
+      {
+        "name": "Ontario Provincial Parks",
+        "description": "Infrastructure réseau satellite et plateforme de réservation pour les parcs provinciaux"
+      },
+      {
+        "name": "tetesaclaques.tv",
+        "description": "Mise en place d'une infrastructure de diffusion numérique pour le site web"
+      }
+    ]
+  },
+  {
+    "id": "cgi-1",
+    "company": "CGI",
+    "logo": "assets/logo_cgi.png",
+    "positions": [
+      {
+        "title": "Coordonnateur de Projets",
+        "period": "2008"
+      },
+      {
+        "title": "Administrateur de Systèmes",
+        "period": "2006-2008"
+      }
+    ],
+    "description": "Planification et coordination de projets opérationnels alignés à une stratégie d'optimisation et de modernisation des infrastructures technologiques",
+    "responsibilities": [
+      "Procéder à l'alignement des plateformes critiques aux standards de soutien des fournisseurs",
+      "Automatiser et optimiser les processus opérationnels ITSM"
+    ],
+    "projects": []
+  },
+  {
+    "id": "asi",
+    "company": "Adéquat Service Informatique",
+    "logo": null,
+    "logoText": "ASI",
+    "positions": [
+      {
+        "title": "Pfizer: Administrateur Système",
+        "period": "2006"
+      },
+      {
+        "title": "IBM: Chargé de Programme",
+        "period": "2006"
+      },
+      {
+        "title": "IBM: Architecte Logiciel",
+        "period": "2005-2006"
+      }
+    ],
+    "description": "IBM: Gestion de programme",
+    "responsibilities": [
+      "Redresser un cadre et échéancier créant des enjeux d'exécution dans une stratégie mondiale d'impartition",
+      "Gérer les attentes des parties prenantes affaires de la société mère du client",
+      "Gérer les budgets du programme",
+      "Gérer les ressources IBM et clientèle du programme",
+      "Conception et développement numérique"
+    ],
+    "projects": [
+      {
+        "name": "ABN AMRO",
+        "description": "Mise en place d'une entente d'impartition entre IBM et la filiale francaise de ABN AMRO."
+      },
+      {
+        "name": "solidarites.gouv.fr",
+        "description": "Plateforme de gestion d'identité ADFS (SSO) pour Pivotal CRM"
+      }
+    ]
+  },
+  {
+    "id": "beanfield-2",
+    "company": "Openface Internet (Beanfield)",
+    "logo": "assets/logo_beanfield.jpg",
+    "positions": [
+      {
+        "title": "Administrateur Systèmes",
+        "period": "2005"
+      }
+    ],
+    "description": "",
+    "responsibilities": [],
+    "projects": []
+  },
+  {
+    "id": "cgi-2",
+    "company": "CGI",
+    "logo": "assets/logo_cgi.png",
+    "positions": [
+      {
+        "title": "Spécialiste Soutien",
+        "period": "2003-2005"
+      }
+    ],
+    "description": "",
+    "responsibilities": [],
+    "projects": []
+  },
+  {
+    "id": "internet",
+    "company": "Inter.Net",
+    "logo": null,
+    "logoText": "I.Net",
+    "positions": [
+      {
+        "title": "Spécialiste Soutien",
+        "period": "2001-2003"
+      }
+    ],
+    "description": "",
+    "responsibilities": [],
+    "projects": []
+  }
+]

@@ -1,2 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss" source("./src/**/*.{html,ts}");
+
+/* Print styles */
+@media print {
+  /* Hide elements with no-print class */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Page break classes */
+  .page-break-after {
+    page-break-after: always;
+  }
+
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  .page-break-inside-avoid {
+    page-break-inside: avoid;
+  }
+
+  /* Remove top padding when printing */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Ensure proper sizing */
+  @page {
+    margin: 0.5in;
+    size: letter;
+  }
+
+  /* Make sure content is visible */
+  body, .container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Adjust colors for print */
+  .bg-gray-100, .bg-gray-200 {
+    background-color: transparent !important;
+  }
+
+  /* Better borders for print */
+  .border-2 {
+    border: 1px solid #ccc !important;
+  }
+}
