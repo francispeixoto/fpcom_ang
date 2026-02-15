@@ -49,6 +49,21 @@ The app runs on http://localhost:4200 by default (ng serve).
   npm run build
 - The compiled files will be under dist/ by default (standard Angular CLI behavior).
 
+## Deployment
+
+This project is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
+
+- **Live Site**: Available at the GitHub Pages URL (see repository settings)
+- **Deployment Documentation**: See [DEPLOYMENT.md](DEPLOYMENT.md) for complete deployment guide
+- **Custom DNS Setup**: See [docs/CUSTOM-DNS-SETUP.md](docs/CUSTOM-DNS-SETUP.md) for custom domain configuration
+
+The deployment workflow automatically:
+1. Builds the Angular application in production mode
+2. Uploads the build artifacts to GitHub Pages
+3. Deploys the site
+
+For manual deployment or troubleshooting, refer to the [DEPLOYMENT.md](DEPLOYMENT.md) guide.
+
 ## Testing
 
 - Unit tests are configured with Karma and Jasmine:
