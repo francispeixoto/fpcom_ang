@@ -1,0 +1,89 @@
+/* Storybook Tailwind CSS - compiled version */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Markdown content styling */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .page-break-after {
+    page-break-after: always;
+  }
+
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  .page-break-inside-avoid {
+    page-break-inside: avoid;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .pt-20 {
+    padding-top: 0 !important;
+  }
+
+  @page {
+    margin: 0.5in;
+    size: letter;
+  }
+
+  body, .container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .bg-gray-100, .bg-gray-200 {
+    background-color: transparent !important;
+  }
+
+  .bg-gray-900 {
+    background-color: #1a1a1a !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .border-2 {
+    border: 1px solid #ccc !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

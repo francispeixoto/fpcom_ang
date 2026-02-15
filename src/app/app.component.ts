@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { Navigation } from './components/navigation/navigation';
-import { JobEntry } from './components/job-entry/job-entry';
+import { NavigationComponent } from './components/navigation/navigation';
+import { JobEntryComponent } from './components/job-entry/job-entry';
 import { CvDataService } from './services/cv-data.service';
 import { Experience } from './models/cv.models';
 import { marked } from 'marked';
@@ -11,7 +11,7 @@ import { marked } from 'marked';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports: [CommonModule, FontAwesomeModule, Navigation, JobEntry]
+  imports: [CommonModule, FontAwesomeModule, NavigationComponent, JobEntryComponent]
 })
 export class AppComponent implements OnInit {
   profileHtml = '';
@@ -38,3 +38,4 @@ export class AppComponent implements OnInit {
     });
   }
 }
+

@@ -1,0 +1,1022 @@
+{
+    "pipes": [],
+    "interfaces": [
+        {
+            "name": "Experience",
+            "id": "interface-Experience-03b9f73c86f1c8d85bbe4ea90b9d13a00e36888fc37ed0983b95c772c3ee9aaad2af54c0e2e4813d9f5727aa8284b324a9bcf55c082f285ee1d109c46794c7de",
+            "file": "src/app/models/cv.models.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface Position {\n  title: string;\n  period: string;\n}\n\nexport interface Project {\n  name: string;\n  description: string;\n}\n\nexport interface Experience {\n  id: string;\n  company: string;\n  logo: string | null;\n  logoText?: string;\n  positions: Position[];\n  description: string;\n  responsibilities: string[];\n  projects: Project[];\n}\n\nexport interface ProfileData {\n  name: string;\n  email: string;\n  linkedin: string;\n  phone: string;\n  summary: string;\n}\n\nexport interface SkillCategory {\n  title: string;\n  description: string;\n  icon?: string;\n}\n",
+            "properties": [
+                {
+                    "name": "company",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 13
+                },
+                {
+                    "name": "description",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 17
+                },
+                {
+                    "name": "id",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 12
+                },
+                {
+                    "name": "logo",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string | null",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 14
+                },
+                {
+                    "name": "logoText",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": true,
+                    "description": "",
+                    "line": 15
+                },
+                {
+                    "name": "positions",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Position[]",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 16
+                },
+                {
+                    "name": "projects",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Project[]",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 19
+                },
+                {
+                    "name": "responsibilities",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string[]",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 18
+                }
+            ],
+            "indexSignatures": [],
+            "kind": 172,
+            "methods": [],
+            "extends": []
+        },
+        {
+            "name": "Position",
+            "id": "interface-Position-03b9f73c86f1c8d85bbe4ea90b9d13a00e36888fc37ed0983b95c772c3ee9aaad2af54c0e2e4813d9f5727aa8284b324a9bcf55c082f285ee1d109c46794c7de",
+            "file": "src/app/models/cv.models.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface Position {\n  title: string;\n  period: string;\n}\n\nexport interface Project {\n  name: string;\n  description: string;\n}\n\nexport interface Experience {\n  id: string;\n  company: string;\n  logo: string | null;\n  logoText?: string;\n  positions: Position[];\n  description: string;\n  responsibilities: string[];\n  projects: Project[];\n}\n\nexport interface ProfileData {\n  name: string;\n  email: string;\n  linkedin: string;\n  phone: string;\n  summary: string;\n}\n\nexport interface SkillCategory {\n  title: string;\n  description: string;\n  icon?: string;\n}\n",
+            "properties": [
+                {
+                    "name": "period",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 3
+                },
+                {
+                    "name": "title",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 2
+                }
+            ],
+            "indexSignatures": [],
+            "kind": 172,
+            "methods": [],
+            "extends": []
+        },
+        {
+            "name": "ProfileData",
+            "id": "interface-ProfileData-03b9f73c86f1c8d85bbe4ea90b9d13a00e36888fc37ed0983b95c772c3ee9aaad2af54c0e2e4813d9f5727aa8284b324a9bcf55c082f285ee1d109c46794c7de",
+            "file": "src/app/models/cv.models.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface Position {\n  title: string;\n  period: string;\n}\n\nexport interface Project {\n  name: string;\n  description: string;\n}\n\nexport interface Experience {\n  id: string;\n  company: string;\n  logo: string | null;\n  logoText?: string;\n  positions: Position[];\n  description: string;\n  responsibilities: string[];\n  projects: Project[];\n}\n\nexport interface ProfileData {\n  name: string;\n  email: string;\n  linkedin: string;\n  phone: string;\n  summary: string;\n}\n\nexport interface SkillCategory {\n  title: string;\n  description: string;\n  icon?: string;\n}\n",
+            "properties": [
+                {
+                    "name": "email",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 24
+                },
+                {
+                    "name": "linkedin",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 25
+                },
+                {
+                    "name": "name",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 23
+                },
+                {
+                    "name": "phone",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 26
+                },
+                {
+                    "name": "summary",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 27
+                }
+            ],
+            "indexSignatures": [],
+            "kind": 172,
+            "methods": [],
+            "extends": []
+        },
+        {
+            "name": "Project",
+            "id": "interface-Project-03b9f73c86f1c8d85bbe4ea90b9d13a00e36888fc37ed0983b95c772c3ee9aaad2af54c0e2e4813d9f5727aa8284b324a9bcf55c082f285ee1d109c46794c7de",
+            "file": "src/app/models/cv.models.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface Position {\n  title: string;\n  period: string;\n}\n\nexport interface Project {\n  name: string;\n  description: string;\n}\n\nexport interface Experience {\n  id: string;\n  company: string;\n  logo: string | null;\n  logoText?: string;\n  positions: Position[];\n  description: string;\n  responsibilities: string[];\n  projects: Project[];\n}\n\nexport interface ProfileData {\n  name: string;\n  email: string;\n  linkedin: string;\n  phone: string;\n  summary: string;\n}\n\nexport interface SkillCategory {\n  title: string;\n  description: string;\n  icon?: string;\n}\n",
+            "properties": [
+                {
+                    "name": "description",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 8
+                },
+                {
+                    "name": "name",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 7
+                }
+            ],
+            "indexSignatures": [],
+            "kind": 172,
+            "methods": [],
+            "extends": []
+        },
+        {
+            "name": "SkillCategory",
+            "id": "interface-SkillCategory-03b9f73c86f1c8d85bbe4ea90b9d13a00e36888fc37ed0983b95c772c3ee9aaad2af54c0e2e4813d9f5727aa8284b324a9bcf55c082f285ee1d109c46794c7de",
+            "file": "src/app/models/cv.models.ts",
+            "deprecated": false,
+            "deprecationMessage": "",
+            "type": "interface",
+            "sourceCode": "export interface Position {\n  title: string;\n  period: string;\n}\n\nexport interface Project {\n  name: string;\n  description: string;\n}\n\nexport interface Experience {\n  id: string;\n  company: string;\n  logo: string | null;\n  logoText?: string;\n  positions: Position[];\n  description: string;\n  responsibilities: string[];\n  projects: Project[];\n}\n\nexport interface ProfileData {\n  name: string;\n  email: string;\n  linkedin: string;\n  phone: string;\n  summary: string;\n}\n\nexport interface SkillCategory {\n  title: string;\n  description: string;\n  icon?: string;\n}\n",
+            "properties": [
+                {
+                    "name": "description",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 32
+                },
+                {
+                    "name": "icon",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": true,
+                    "description": "",
+                    "line": 33
+                },
+                {
+                    "name": "title",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 31
+                }
+            ],
+            "indexSignatures": [],
+            "kind": 172,
+            "methods": [],
+            "extends": []
+        }
+    ],
+    "injectables": [
+        {
+            "name": "CvDataService",
+            "id": "injectable-CvDataService-43f536baac69fdf2b7a46ca4c0ff844d784752015990c924cc4e7504b47d78f4191a3293002ff82a1291ff2896e959867bb81f2852c43a2e24eb335a6ace112c",
+            "file": "src/app/services/cv-data.service.ts",
+            "properties": [],
+            "methods": [
+                {
+                    "name": "getExperience",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "Observable<Experience[]>",
+                    "typeParameters": [],
+                    "line": 20,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "getProfile",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "Observable<string>",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "getSkills",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "Observable<string>",
+                    "typeParameters": [],
+                    "line": 16,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "description": "",
+            "rawdescription": "\n",
+            "sourceCode": "import { Injectable } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { Observable, map } from 'rxjs';\nimport { Experience } from '../models/cv.models';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class CvDataService {\n  constructor(private http: HttpClient) {}\n\n  getProfile(): Observable<string> {\n    return this.http.get('assets/cv-data/profile.md', { responseType: 'text' });\n  }\n\n  getSkills(): Observable<string> {\n    return this.http.get('assets/cv-data/skills.md', { responseType: 'text' });\n  }\n\n  getExperience(): Observable<Experience[]> {\n    return this.http.get<Experience[]>('assets/cv-data/experience.json');\n  }\n}\n",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [
+                    {
+                        "name": "http",
+                        "type": "HttpClient",
+                        "optional": false,
+                        "dotDotDotToken": false,
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    }
+                ],
+                "line": 9,
+                "jsdoctags": [
+                    {
+                        "name": "http",
+                        "type": "HttpClient",
+                        "optional": false,
+                        "dotDotDotToken": false,
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    }
+                ]
+            },
+            "extends": [],
+            "type": "injectable"
+        }
+    ],
+    "guards": [],
+    "interceptors": [],
+    "classes": [],
+    "directives": [],
+    "components": [
+        {
+            "name": "AppComponent",
+            "id": "component-AppComponent-47732e0fdc29ce2270394e28ce463cd949bc499955d3a969e52e9ef233ebb5ba57784873e9d23e63214881315c5a9ca924d5cd49fb260dc5d561840837a0195e",
+            "file": "src/app/app.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-root",
+            "styleUrls": [
+                "./app.component.css"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./app.component.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "currentExperiences",
+                    "defaultValue": "[]",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Experience[]",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 20
+                },
+                {
+                    "name": "experiences",
+                    "defaultValue": "[]",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Experience[]",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 19
+                },
+                {
+                    "name": "pastExperiences",
+                    "defaultValue": "[]",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Experience[]",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 21
+                },
+                {
+                    "name": "profileHtml",
+                    "defaultValue": "''",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 17
+                },
+                {
+                    "name": "skillsHtml",
+                    "defaultValue": "''",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "string",
+                    "indexKey": "",
+                    "optional": false,
+                    "description": "",
+                    "line": 18
+                }
+            ],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 25,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": false,
+            "imports": [
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                },
+                {
+                    "name": "FontAwesomeModule",
+                    "type": "module"
+                },
+                {
+                    "name": "NavigationComponent",
+                    "type": "component"
+                },
+                {
+                    "name": "JobEntryComponent",
+                    "type": "component"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { FontAwesomeModule } from '@fortawesome/angular-fontawesome';\nimport { NavigationComponent } from './components/navigation/navigation';\nimport { JobEntryComponent } from './components/job-entry/job-entry';\nimport { CvDataService } from './services/cv-data.service';\nimport { Experience } from './models/cv.models';\nimport { marked } from 'marked';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.css'],\n  imports: [CommonModule, FontAwesomeModule, NavigationComponent, JobEntryComponent]\n})\nexport class AppComponent implements OnInit {\n  profileHtml = '';\n  skillsHtml = '';\n  experiences: Experience[] = [];\n  currentExperiences: Experience[] = [];\n  pastExperiences: Experience[] = [];\n\n  constructor(private cvDataService: CvDataService) {}\n\n  ngOnInit() {\n    this.cvDataService.getProfile().subscribe(md => {\n      this.profileHtml = marked.parse(md) as string;\n    });\n\n    this.cvDataService.getSkills().subscribe(md => {\n      this.skillsHtml = marked.parse(md) as string;\n    });\n\n    this.cvDataService.getExperience().subscribe(experiences => {\n      this.experiences = experiences;\n      this.currentExperiences = experiences.filter(exp => exp.id === 'exo-current');\n      this.pastExperiences = experiences.filter(exp => exp.id !== 'exo-current');\n    });\n  }\n}\n\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./app.component.css"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [
+                    {
+                        "name": "cvDataService",
+                        "type": "CvDataService",
+                        "optional": false,
+                        "dotDotDotToken": false,
+                        "deprecated": false,
+                        "deprecationMessage": ""
+                    }
+                ],
+                "line": 21,
+                "jsdoctags": [
+                    {
+                        "name": "cvDataService",
+                        "type": "CvDataService",
+                        "optional": false,
+                        "dotDotDotToken": false,
+                        "deprecated": false,
+                        "deprecationMessage": "",
+                        "tagName": {
+                            "text": "param"
+                        }
+                    }
+                ]
+            },
+            "extends": [],
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<!-- Navigation -->\n<app-navigation></app-navigation>\n\n<!-- Main content with top padding for fixed nav -->\n<div class=\"pt-20\">\n  <!-- Profile Section -->\n  <header class=\"bg-gray-900 text-white p-8\">\n    <div class=\"container mx-auto\" [innerHTML]=\"profileHtml\"></div>\n  </header>\n\n  <!-- Skills Section -->\n  <section class=\"container mx-auto px-8 py-8 bg-gray-100\">\n    <div [innerHTML]=\"skillsHtml\"></div>\n  </section>\n\n  <!-- Current Position Section -->\n  <section *ngIf=\"currentExperiences.length > 0\" class=\"container mx-auto px-8 py-8 page-break-after\">\n    <h2 class=\"text-3xl font-bold text-gray-900 mb-6\">Mandat actuel</h2>\n    <app-job-entry\n      *ngFor=\"let experience of currentExperiences\"\n      [experience]=\"experience\">\n    </app-job-entry>\n  </section>\n\n  <!-- Past Experience Section -->\n  <section *ngIf=\"pastExperiences.length > 0\" class=\"container mx-auto px-8 py-8\">\n    <h2 class=\"text-3xl font-bold text-gray-900 mb-6\">Réalisations passées</h2>\n    <app-job-entry\n      *ngFor=\"let experience of pastExperiences\"\n      [experience]=\"experience\">\n    </app-job-entry>\n  </section>\n</div>\n"
+        },
+        {
+            "name": "ButtonComponent",
+            "id": "component-ButtonComponent-5074400a455e750e4ce3e314c7223415eccffebc6caeb7139c4841fb762b76a1e2ce40d48a796abab538a9d074c1aebd9c9af514ff201fcac54b26299161c466",
+            "file": "src/app/components/ui/button.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-button",
+            "styleUrls": [],
+            "styles": [],
+            "template": "<button\n  [type]=\"type\"\n  [disabled]=\"disabled\"\n  [class]=\"buttonClasses\"\n  (click)=\"handleClick($event)\">\n  <ng-content></ng-content>\n</button>\n",
+            "templateUrl": [],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "disabled",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 26,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "fullWidth",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 27,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "size",
+                    "defaultValue": "'md'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 24,
+                    "type": "ButtonSize",
+                    "decorators": []
+                },
+                {
+                    "name": "type",
+                    "defaultValue": "'button'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 25,
+                    "type": "\"button\" | \"submit\" | \"reset\"",
+                    "decorators": []
+                },
+                {
+                    "name": "variant",
+                    "defaultValue": "'primary'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 23,
+                    "type": "ButtonVariant",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [
+                {
+                    "name": "clicked",
+                    "defaultValue": "new EventEmitter<Event>()",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 29,
+                    "type": "EventEmitter"
+                }
+            ],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "handleClick",
+                    "args": [
+                        {
+                            "name": "event",
+                            "type": "Event",
+                            "optional": false,
+                            "dotDotDotToken": false,
+                            "deprecated": false,
+                            "deprecationMessage": ""
+                        }
+                    ],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 52,
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "jsdoctags": [
+                        {
+                            "name": "event",
+                            "type": "Event",
+                            "optional": false,
+                            "dotDotDotToken": false,
+                            "deprecated": false,
+                            "deprecationMessage": "",
+                            "tagName": {
+                                "text": "param"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport { CommonModule } from '@angular/common';\n\nexport type ButtonVariant = 'primary' | 'secondary' | 'ghost';\nexport type ButtonSize = 'sm' | 'md' | 'lg';\n\n@Component({\n  selector: 'app-button',\n  standalone: true,\n  imports: [CommonModule],\n  template: `\n    <button\n      [type]=\"type\"\n      [disabled]=\"disabled\"\n      [class]=\"buttonClasses\"\n      (click)=\"handleClick($event)\">\n      <ng-content></ng-content>\n    </button>\n  `,\n  styles: []\n})\nexport class ButtonComponent {\n  @Input() variant: ButtonVariant = 'primary';\n  @Input() size: ButtonSize = 'md';\n  @Input() type: 'button' | 'submit' | 'reset' = 'button';\n  @Input() disabled = false;\n  @Input() fullWidth = false;\n\n  @Output() clicked = new EventEmitter<Event>();\n\n  get buttonClasses(): string {\n    const baseClasses = 'inline-flex items-center justify-center font-medium rounded transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2';\n\n    const variantClasses = {\n      primary: 'bg-gray-900 text-white hover:bg-gray-800 focus:ring-gray-900 disabled:bg-gray-400',\n      secondary: 'bg-white text-gray-900 border-2 border-gray-900 hover:bg-gray-100 focus:ring-gray-900 disabled:border-gray-400 disabled:text-gray-400',\n      ghost: 'bg-transparent text-gray-900 hover:bg-gray-100 focus:ring-gray-900 disabled:text-gray-400'\n    };\n\n    const sizeClasses = {\n      sm: 'px-3 py-1.5 text-sm',\n      md: 'px-4 py-2 text-base',\n      lg: 'px-6 py-3 text-lg'\n    };\n\n    const widthClass = this.fullWidth ? 'w-full' : '';\n    const disabledClass = this.disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer';\n\n    return `${baseClasses} ${variantClasses[this.variant]} ${sizeClasses[this.size]} ${widthClass} ${disabledClass}`;\n  }\n\n  handleClick(event: Event): void {\n    if (!this.disabled) {\n      this.clicked.emit(event);\n    }\n  }\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "accessors": {
+                "buttonClasses": {
+                    "name": "buttonClasses",
+                    "getSignature": {
+                        "name": "buttonClasses",
+                        "type": "string",
+                        "returnType": "string",
+                        "line": 31
+                    }
+                }
+            }
+        },
+        {
+            "name": "JobEntryComponent",
+            "id": "component-JobEntryComponent-e1bfe8e38d6247db4b76b05b196bb45fa2382e816a31d1a68d5025e5f23de46aa41f912660a35310b24147f63a0cdc21c3c1fe33355d469bae9f5288c15f0652",
+            "file": "src/app/components/job-entry/job-entry.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-job-entry",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./job-entry.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "experience",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 13,
+                    "type": "Experience",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { Experience } from '../../models/cv.models';\n\n@Component({\n  selector: 'app-job-entry',\n  standalone: true,\n  imports: [CommonModule],\n  templateUrl: './job-entry.html',\n  styleUrl: './job-entry.css',\n})\nexport class JobEntryComponent {\n  @Input() experience!: Experience;\n}\n\n",
+            "styleUrl": "./job-entry.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<div class=\"mb-8 page-break-inside-avoid\">\n  <div class=\"flex flex-row items-center mb-4\">\n    <!-- Company Logo -->\n    <div class=\"h-20 w-20 rounded-full mr-6 flex-shrink-0 flex items-center justify-center bg-gray-100\">\n      <img\n        *ngIf=\"experience.logo\"\n        [src]=\"experience.logo\"\n        [alt]=\"experience.company\"\n        class=\"h-20 w-20 rounded-full object-cover\">\n      <span *ngIf=\"!experience.logo && experience.logoText\" class=\"text-2xl text-gray-900 font-bold\">\n        {{ experience.logoText }}\n      </span>\n    </div>\n\n    <!-- Company and Positions -->\n    <div class=\"flex-grow\">\n      <h2 class=\"text-2xl font-semibold text-gray-900 mb-2\">{{ experience.company }}</h2>\n      <div *ngFor=\"let position of experience.positions\" class=\"mb-1\">\n        <p class=\"text-lg text-gray-800\">{{ position.title }}</p>\n        <p class=\"text-sm text-gray-500\">{{ position.period }}</p>\n      </div>\n    </div>\n  </div>\n\n  <!-- Description -->\n  <div *ngIf=\"experience.description\" class=\"mb-3\">\n    <p class=\"text-lg font-medium text-gray-900\">{{ experience.description }}</p>\n  </div>\n\n  <!-- Responsibilities -->\n  <div *ngIf=\"experience.responsibilities.length > 0\" class=\"mb-3\">\n    <p *ngFor=\"let responsibility of experience.responsibilities\" class=\"text-base text-gray-700 mb-1\">\n      ✓ {{ responsibility }}\n    </p>\n  </div>\n\n  <!-- Projects -->\n  <div *ngIf=\"experience.projects.length > 0\" class=\"mt-4\">\n    <p class=\"text-lg font-medium text-gray-900 mb-3\">Projets Notables</p>\n    <div class=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4\">\n      <div *ngFor=\"let project of experience.projects\" class=\"bg-white border-2 border-gray-200 p-4 rounded\">\n        <p class=\"text-lg font-medium text-gray-900 mb-2\">{{ project.name }}</p>\n        <p class=\"text-sm text-gray-700\">{{ project.description }}</p>\n      </div>\n    </div>\n  </div>\n</div>\n"
+        },
+        {
+            "name": "NavigationComponent",
+            "id": "component-NavigationComponent-c9c255ed4df275d91855f42a649fd58e3b807d912177b131836949b260c1e718a86ba95b0f7a591bce874f4fc11622c2e86f5b96187481bbf019d796c8f6f253",
+            "file": "src/app/components/navigation/navigation.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-navigation",
+            "styleUrls": [],
+            "styles": [],
+            "templateUrl": [
+                "./navigation.html"
+            ],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "showPrintButton",
+                    "defaultValue": "true",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 15,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "title",
+                    "defaultValue": "'Francis Peixoto'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 14,
+                    "type": "string",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "print",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 17,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                },
+                {
+                    "name": "FontAwesomeModule",
+                    "type": "module"
+                },
+                {
+                    "name": "ButtonComponent",
+                    "type": "component"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { FontAwesomeModule } from '@fortawesome/angular-fontawesome';\nimport { ButtonComponent } from '../ui/button.component';\n\n@Component({\n  selector: 'app-navigation',\n  standalone: true,\n  imports: [CommonModule, FontAwesomeModule, ButtonComponent],\n  templateUrl: './navigation.html',\n  styleUrl: './navigation.css',\n})\nexport class NavigationComponent {\n  @Input() title = 'Francis Peixoto';\n  @Input() showPrintButton = true;\n\n  print(): void {\n    window.print();\n  }\n}\n\n",
+            "styleUrl": "./navigation.css",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "templateData": "<nav class=\"fixed top-0 left-0 right-0 bg-gray-900 text-white shadow-lg z-50 no-print\">\n  <div class=\"container mx-auto px-5 py-4 flex justify-between items-center\">\n    <a href=\"/\" class=\"text-2xl font-bold no-underline text-white hover:text-gray-300\">\n      {{ title }}\n    </a>\n    <app-button\n      *ngIf=\"showPrintButton\"\n      variant=\"secondary\"\n      size=\"md\"\n      (clicked)=\"print()\"\n      class=\"bg-white\">\n      <fa-icon [icon]=\"['fas', 'print']\" size=\"1x\" class=\"mr-2\"></fa-icon>\n      <span>Print</span>\n    </app-button>\n  </div>\n</nav>\n"
+        }
+    ],
+    "modules": [
+        {
+            "name": "AppModule",
+            "id": "module-AppModule-2c299e9e06d880155a6f57c196128fea7dd20565aaca1fe862b2125a5a6c15fb26ebb0e9e7c1a6d69ed0255778a8bece183b12603e3d20a866ac9223b5840c93",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/app.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\nimport { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';\n\nimport { AppComponent } from './app.component';\n\nimport { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';\nimport { faStar as fasStar, faHandshake as fasHandshake, faRoad as fasRoad, faBook as fasBook, faEnvelope as fasEnvelope, faPhone as fasPhone, faPrint as fasPrint } from '@fortawesome/free-solid-svg-icons';\nimport { faGithub as fasGithub, faLinkedin as fasLinkedin } from '@fortawesome/free-brands-svg-icons';\n\n\n@NgModule({\n  imports: [\n    AppComponent,\n    BrowserModule,\n    FontAwesomeModule\n  ],\n  providers: [provideHttpClient(withInterceptorsFromDi())],\n  bootstrap: [AppComponent]\n})\nexport class AppModule {\n  constructor(library: FaIconLibrary) {\n    library.addIcons(fasStar, fasHandshake, fasBook, fasRoad, fasEnvelope, fasGithub, fasLinkedin, fasPhone, fasPrint);}\n }\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": []
+                },
+                {
+                    "type": "imports",
+                    "elements": [
+                        {
+                            "name": "AppComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": [
+                        {
+                            "name": "AppComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        }
+    ],
+    "miscellaneous": {
+        "variables": [],
+        "functions": [],
+        "typealiases": [
+            {
+                "name": "ButtonSize",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "\"sm\" | \"md\" | \"lg\"",
+                "file": "src/app/components/ui/button.component.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 193
+            },
+            {
+                "name": "ButtonVariant",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "\"primary\" | \"secondary\" | \"ghost\"",
+                "file": "src/app/components/ui/button.component.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 193
+            }
+        ],
+        "enumerations": [],
+        "groupedVariables": {},
+        "groupedFunctions": {},
+        "groupedEnumerations": {},
+        "groupedTypeAliases": {
+            "src/app/components/ui/button.component.ts": [
+                {
+                    "name": "ButtonSize",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "\"sm\" | \"md\" | \"lg\"",
+                    "file": "src/app/components/ui/button.component.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 193
+                },
+                {
+                    "name": "ButtonVariant",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "\"primary\" | \"secondary\" | \"ghost\"",
+                    "file": "src/app/components/ui/button.component.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 193
+                }
+            ]
+        }
+    },
+    "routes": {
+        "name": "<root>",
+        "kind": "module",
+        "className": "AppModule",
+        "children": []
+    },
+    "coverage": {
+        "count": 0,
+        "status": "low",
+        "files": [
+            {
+                "filePath": "src/app/app.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "AppComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/8",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/job-entry/job-entry.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "JobEntryComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/navigation/navigation.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "NavigationComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/4",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/ui/button.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "ButtonComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/8",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/ui/button.component.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "ButtonSize",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/ui/button.component.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "ButtonVariant",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/models/cv.models.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "Experience",
+                "coveragePercent": 0,
+                "coverageCount": "0/9",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/models/cv.models.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "Position",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/models/cv.models.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "ProfileData",
+                "coveragePercent": 0,
+                "coverageCount": "0/6",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/models/cv.models.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "Project",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/models/cv.models.ts",
+                "type": "interface",
+                "linktype": "interface",
+                "name": "SkillCategory",
+                "coveragePercent": 0,
+                "coverageCount": "0/4",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/services/cv-data.service.ts",
+                "type": "injectable",
+                "linktype": "injectable",
+                "name": "CvDataService",
+                "coveragePercent": 0,
+                "coverageCount": "0/5",
+                "status": "low"
+            }
+        ]
+    }
+}

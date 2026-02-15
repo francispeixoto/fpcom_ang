@@ -4,10 +4,12 @@ import { Experience } from '../../models/cv.models';
 
 @Component({
   selector: 'app-job-entry',
+  standalone: true,
   imports: [CommonModule],
   templateUrl: './job-entry.html',
   styleUrl: './job-entry.css',
 })
-export class JobEntry {
+export class JobEntryComponent {
   @Input() experience!: Experience;
 }
+
