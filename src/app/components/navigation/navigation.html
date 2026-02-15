@@ -1,0 +1,16 @@
+<nav class="fixed top-0 left-0 right-0 bg-gray-900 text-white shadow-lg z-50 no-print">
+  <div class="container mx-auto px-5 py-4 flex justify-between items-center">
+    <a href="/" class="text-2xl font-bold no-underline text-white hover:text-gray-300">
+      {{ title }}
+    </a>
+    <app-button
+      *ngIf="showPrintButton"
+      variant="secondary"
+      size="md"
+      (clicked)="print()"
+      class="bg-white">
+      <fa-icon [icon]="['fas', 'print']" size="1x" class="mr-2"></fa-icon>
+      <span>Print</span>
+    </app-button>
+  </div>
+</nav>

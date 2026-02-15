@@ -1,0 +1,47 @@
+<div class="mb-8 page-break-inside-avoid">
+  <div class="flex flex-row items-center mb-4">
+    <!-- Company Logo -->
+    <div class="h-20 w-20 rounded-full mr-6 flex-shrink-0 flex items-center justify-center bg-gray-100">
+      <img
+        *ngIf="experience.logo"
+        [src]="experience.logo"
+        [alt]="experience.company"
+        class="h-20 w-20 rounded-full object-cover">
+      <span *ngIf="!experience.logo && experience.logoText" class="text-2xl text-gray-900 font-bold">
+        {{ experience.logoText }}
+      </span>
+    </div>
+
+    <!-- Company and Positions -->
+    <div class="flex-grow">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-2">{{ experience.company }}</h2>
+      <div *ngFor="let position of experience.positions" class="mb-1">
+        <p class="text-lg text-gray-800">{{ position.title }}</p>
+        <p class="text-sm text-gray-500">{{ position.period }}</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Description -->
+  <div *ngIf="experience.description" class="mb-3">
+    <p class="text-lg font-medium text-gray-900">{{ experience.description }}</p>
+  </div>
+
+  <!-- Responsibilities -->
+  <div *ngIf="experience.responsibilities.length > 0" class="mb-3">
+    <p *ngFor="let responsibility of experience.responsibilities" class="text-base text-gray-700 mb-1">
+      ✓ {{ responsibility }}
+    </p>
+  </div>
+
+  <!-- Projects -->
+  <div *ngIf="experience.projects.length > 0" class="mt-4">
+    <p class="text-lg font-medium text-gray-900 mb-3">Projets Notables</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div *ngFor="let project of experience.projects" class="bg-white border-2 border-gray-200 p-4 rounded">
+        <p class="text-lg font-medium text-gray-900 mb-2">{{ project.name }}</p>
+        <p class="text-sm text-gray-700">{{ project.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
